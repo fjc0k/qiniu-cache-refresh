@@ -13,9 +13,7 @@
     "url": "git@github.com:fjc0k/qiniu-cache-refresh.git"
   },
   "license": "MIT",
-  "bin": {
-    "qiniu-cache-refresh": "src/cli.js"
-  },
+  "bin": "src/cli.js",
   "keywords": [
     "qiniu",
     "cli"
