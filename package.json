@@ -1,6 +1,6 @@
 {
   "name": "qiniu-cache-refresh",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "基于配置的七牛缓存刷新命令行工具。",
   "main": "src/index.js",
   "author": {
