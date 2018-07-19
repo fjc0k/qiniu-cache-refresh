@@ -1,0 +1,42 @@
+{
+  "name": "qiniu-cache-refresh",
+  "version": "0.0.1",
+  "description": "基于配置的七牛缓存刷新命令行工具。",
+  "main": "src/index.js",
+  "author": {
+    "name": "Jay Fong",
+    "email": "fjc0kb@gmail.com",
+    "url": "https://github.com/fjc0k"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fjc0k/qiniu-cache-refresh.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "qiniu-cache-refresh": "src/cli.js"
+  },
+  "keywords": [
+    "qiniu",
+    "cli"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "extends": "@fir-ui/fir"
+  },
+  "scripts": {
+    "release": "standard-version -a",
+    "postrelease": "git push --follow-tags origin master && npm publish"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "console.table": "^0.10.0",
+    "lodash": "^4.17.10",
+    "qiniu": "^7.2.1"
+  },
+  "devDependencies": {
+    "@fir-ui/eslint-config-fir": "^0.50.4",
+    "eslint": "^5.1.0",
+    "standard-version": "^4.4.0"
+  }
+}
